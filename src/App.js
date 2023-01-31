@@ -1,11 +1,9 @@
-import ProjectItem from './components/ProjectItem';
+import MainContainer from './components/MainContainer';
 
 function App() {
   return (
     <div>
-      <h2>Ryan O'Dell</h2>
-      <p>This is a site about me</p>
-      <ProjectItem /> 
+      <MainContainer />
     </div>
   );
 }
