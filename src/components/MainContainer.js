@@ -6,9 +6,6 @@ function MainContainer(){
   return (
     <div className="main-container">
       <MainItem />
-      <MainItem />
-      <MainItem />
-      <MainItem />
     </div>
   )
 }

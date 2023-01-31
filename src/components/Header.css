@@ -7,8 +7,13 @@
 }
 
 /*** Logo ***/
-.logo {
-  height: 6rem;
+.logo-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-container__logo {
+  height: 3.75rem;
 }
 
 /*** Navigation ***/

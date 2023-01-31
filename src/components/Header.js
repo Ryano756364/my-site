@@ -5,7 +5,9 @@ import { ReactComponent as GitHub } from "../img/SVG/github.svg"
 function Header(){
   return (
     <header className="header">
-        <img src={require("../img/logo-black.png")} alt="Ryan's Logo" class="logo"/>
+        <div className="logo-container">  
+          <img src={require("../img/logo-no-background.png")} alt="Ryan's Logo" class="logo-container__logo"/>
+        </div>
 
         <nav className="user-nav">
           <div className="user-nav__icon-box">
