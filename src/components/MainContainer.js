@@ -1,6 +1,8 @@
-import './MainContainer.css'
+import './MainContainer.css';
 import { ReactComponent as LinkedInIcon } from "../img/SVG/linkedin2.svg"
 import { ReactComponent as GitHub } from "../img/SVG/github.svg"
+import MainItem from './MainItem';
+import Footer from './Footer';
 
 function MainContainer(){
   return (
@@ -28,6 +30,14 @@ function MainContainer(){
           </div>
         </nav>
       </header>
+
+      <MainItem />
+      <MainItem />
+      <MainItem />
+      <MainItem />
+      <MainItem />
+
+      <Footer />
     </div>
   )
 }

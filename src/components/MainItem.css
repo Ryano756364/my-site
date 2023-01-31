@@ -1,0 +1,41 @@
+.content {
+  border: .25rem solid orangered;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.main-column {
+  border: .25rem solid rgb(30, 255, 0);
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.main-column__item {
+  border: .25rem solid rgb(0, 106, 255);
+  margin: 1rem;
+  padding: 1rem 1rem 1rem 4rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-column__item-header{
+
+}
+.main-column__item-description{
+
+}
+.main-column__item-link-container{
+
+}
+.item-link-container__link,
+.item-link-container__link:visited{
+  color: black;
+  text-decoration: none;
+  /* text-transform: uppercase; */
+
+}
+
+.item-link-container__link:hover {
+  color: white;
+  background-color: orangered;
+}
