@@ -52,13 +52,7 @@
   color: white;
 }
 
-/*Right Text Alignment*/
-.right-text-container{
-  padding-left: 50%;
-  padding-top: 10%;
-  padding-right: 10%;
-}
-
+/* Item-unique elements */
 /* University */
 #university {
   padding: 50rem 0;
@@ -67,6 +61,28 @@
   justify-content: center;
   align-items: center;
 }
+
+/* Home Buyer Contact Form */
+.home-text-container{
+  padding-left: 50%;
+  padding-top: 10%;
+  padding-right: 10%;
+}
+
+/* Booking Project */
+.booking-text-container{
+  padding-left: 24%;
+  padding-top: 27.5%;
+  color: white;
+}
+
+/* Agent Project */
+.agent-text-container{
+  padding-left: 70%;
+  padding-top: 10%;
+  color: white;
+}
+
 
 
 /* ## Resources 
