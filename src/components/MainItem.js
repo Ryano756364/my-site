@@ -5,6 +5,7 @@ function MainItem(){
   return (
       <div className="main-column">
 
+        {/* University */}
         <div className="main-column__item">
           <div className="main-column__item-header" id="university">
               <div>Kent State University, B.S. Computer and Digital Sciences.</div>
@@ -13,6 +14,7 @@ function MainItem(){
           </div>
         </div>
 
+        {/* Project One */}
         <div className="main-column__item" id="home-buyer-container">
           <Parallax bgImage={require('../img/home-bg-large-2.jpg')} bgImageAlt="Three homes with blue sky background" strength={-200}>
             <div className="main-column-text-container right-text-container">
@@ -29,6 +31,7 @@ function MainItem(){
           </Parallax>
         </div>
 
+        {/* Project Two */}
         <div className="main-column__item">
           <div className="main-column-text-container left-text-container">
             <div className="main-column__item-header">
@@ -45,6 +48,7 @@ function MainItem(){
           </div>
         </div>
 
+        {/* Project Three */}
         <div className="main-column__item">
           <div className="main-column-text-container right-text-container">
             <div className="main-column__item-header ">
@@ -61,77 +65,6 @@ function MainItem(){
           </div>
         </div>
 
-        <div className="main-column__item">
-          <div className="main-column__item-header">
-            Item Header
-          </div>
-
-          <div className="main-column__item-description">
-            Item Description
-          </div>
-
-          <div className="main-column__item-link-container">
-            <a href="https:www.google.com" className='item-link-container__link'>Link</a>
-          </div>
-        </div>
-
-        <div className="main-column__item">
-          <div className="main-column-text-container right-text-container">
-            <div className="main-column__item-header">
-              Item Header
-            </div>
-
-            <div className="main-column__item-description">
-              Item Description
-            </div>
-
-            <div className="main-column__item-link-container">
-              <a href="https:www.google.com" className='item-link-container__link'>Link</a>
-            </div>
-          </div>
-        </div>
-
-        <div className="main-column__item">
-          <div className="main-column__item-header">
-            Item Header
-          </div>
-
-          <div className="main-column__item-description">
-            Item Description
-          </div>
-
-          <div className="main-column__item-link-container">
-            <a href="https:www.google.com" className='item-link-container__link'>Link</a>
-          </div>
-        </div>
-
-        <div className="main-column__item">
-          <div className="main-column__item-header">
-            Item Header
-          </div>
-
-          <div className="main-column__item-description">
-            Item Description
-          </div>
-
-          <div className="main-column__item-link-container">
-            <a href="https:www.google.com" className='item-link-container__link'>Link</a>
-          </div>
-        </div>
-
-        <div className="main-column__item">
-          <div className="main-column__item-header">
-            Item Header
-          </div>
-
-          <div className="main-column__item-description">
-            Item Description
-          </div>
-
-          <div className="main-column__item-link-container">
-            <a href="https:www.google.com" className='item-link-container__link'>Link</a>
-          </div>
-        </div>
       </div>
   )
 }
