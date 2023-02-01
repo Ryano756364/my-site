@@ -18,21 +18,23 @@
 
 /*** Navigation ***/
 .user-nav{
-  /* background-color: orangered; */
+  background-color: rgb(47, 0, 255);
   display: flex;
   align-items: center;
   align-self: stretch;
 }
 
 .user-nav__icon-box{
-  padding: 1rem 2rem 0 2rem;
+  border: 2px solid green;
+  padding: 2rem; /* watch ham-menu when changing this */
   cursor: pointer;
   height: 100%;
-  /* display: flex;
-  align-items: center; */
+  min-width: 10rem;
+  display: flex;
+  justify-content: center;
 }
 .user-nav__icon-box:hover{
-  background-color: orangered;
+  background-color: rgb(234, 81, 219);
 }
 
 .user-nav__icon {
@@ -40,8 +42,139 @@
   width: 3rem;
 }
 
-.user-nav__menu {
-  height: 3rem;
-  /* display: flex;
-  align-items: center; */
+
+/* Hamburger Menu Styling */
+.navigation {
+  position: relative;
+}
+.navigation__checkbox {
+  display: none;
+}
+.navigation__button {
+  background-color: orangered;
+  height: 6.5rem;
+  width: 6.5rem;
+  border-radius: 50%;
+  position: absolute;
+  top: -1.75rem;
+  right: -1.9rem;
+  z-index: 2000;
+  box-shadow: 0 1rem 3rem rgba(black, .5);
+  justify-items: center;
+  display: grid;
+  cursor: pointer;
+}
+.navigation__button:hover{
+  transform: scale(1.1);
+}
+.navigation_background {
+  height: 5.5rem;
+  width: 5.5rem;
+  border-radius: 50%;
+  /* position: absolute; */
+  position: fixed;
+  top: -1.25rem;
+  right: -1.5rem;
+  background-image: radial-gradient(green, lightgreen);
+  z-index: 1000;
+  transition: transform .4s cubic-bezier(0.33, 1, 0.68, 1);
+}
+.navigation_nav {
+  /* Larger page that will take up the entire vp */
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1500;
+
+  opacity: 0; /* disappear on default */
+  width: 0; /*removes links from center of screen and pushes them aside */
+  transition: all .4s;
+}
+
+.navigation__list {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  list-style: none;
+  text-align: center;
+  width: 100%;
+}
+.navigation__item {
+  margin: 1rem;
+}
+.navigation__link:link,
+.navigation__link:visited {
+  display: inline-block;  /* important for padding + transform element below */
+  font-size: 3rem;
+  font-weight: 200;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 1rem 2rem;
+  
+  /* Creates a larger background that will shift to the left when hovered and come into view */
+  background-image: linear-gradient(120deg, transparent 0%, transparent 50%, white 50%);
+  background-size: 230%;
+  transition: all .4s;
+}
+
+.navigation__link:hover,
+.navigation__link:active{
+  background-position: 100%;  /* This is what pushes larger white background over button */
+  color: black;
+  transform: translateX(1rem);  /* Shifts to right just a bit */
+}
+
+.navigation__checkbox:checked ~  .navigation_background {  /* General sibling used since we do not want adjacent element */
+  transform: scale(110);
+}
+.navigation__checkbox:checked ~ .navigation_nav {
+  opacity: 1;
+  width: 100%;
+}
+
+/* Hamburger icon */
+.navigation__icon{
+  position: relative;
+}
+
+.navigation_icon,
+.navigation_icon::before,
+.navigation_icon::after {
+  margin-top: 2rem;
+  width: 3rem;
+  height: 2px;
+  background-color: rgb(68, 68, 68);
+  display: inline-block;
+  position: absolute;
+}
+.navigation_icon::before,
+.navigation_icon::after {
+  content: "";
+  left: 0;
+  position: absolute;
+  transition: all .2s;
+}
+.navigation_icon::before{ /* middle */
+  top: -1rem; 
+}
+.navigation_icon::after{ /* bottom line */
+  top: .1rem;  
+}
+
+/* Cross formation upon click */
+.navigation__checkbox:checked + .navigation__button .navigation_icon::before{
+  background-color: transparent;
+}
+.navigation__checkbox:checked + .navigation__button .navigation_icon{
+  top: 1rem;
+  transform: rotate(45deg);
+  width: 3.5rem;
+}
+.navigation__checkbox:checked + .navigation__button .navigation_icon::after{
+  top: -1.90rem;
+  transform: rotate(-90deg);
+  width: 3.5rem;
 }
