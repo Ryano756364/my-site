@@ -10,7 +10,7 @@ function HeaderSub(){
 
       <div className="text-container">
         <div className="text-container__text">
-          I help companies with efficiency through software development solutions
+          I help companies enhance efficiency through software development solutions
         </div>
       </div>
     </div>

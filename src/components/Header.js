@@ -6,7 +6,7 @@ function Header(){
   return (
     <header className="header">
         <div className="logo-container">  
-          <img src={require("../img/logo-no-background.png")} alt="Ryan's Logo" class="logo-container__logo"/>
+          <img src={require("../img/logo-no-background.png")} alt="Ryan's Logo" className="logo-container__logo"/>
         </div>
 
         <nav className="user-nav">
