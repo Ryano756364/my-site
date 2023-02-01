@@ -33,6 +33,7 @@ function MainItem(){
 
         {/* Project Two */}
         <div className="main-column__item">
+          <Parallax bgImageAlt="City view" strength={-200}>
           <div className="main-column-text-container left-text-container">
             <div className="main-column__item-header">
               Item Header
@@ -46,6 +47,7 @@ function MainItem(){
               <a href="https:www.google.com" className='item-link-container__link'>Link</a>
             </div>
           </div>
+          </Parallax>
         </div>
 
         {/* Project Three */}
