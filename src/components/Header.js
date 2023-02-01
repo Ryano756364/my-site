@@ -10,18 +10,22 @@ function Header(){
         </div>
 
         <nav className="user-nav">
-          <div className="user-nav__icon-box">
-            <svg className="user-nav__icon">
-              <LinkedInIcon className='linkedin-icon' alt='LinkedIn Icon'></LinkedInIcon>
-            </svg>
-          </div>
+          <a href="https://www.linkedin.com/in/ryan-odell-java-developer/">
+            <div className="user-nav__icon-box" >
+              <svg className="user-nav__icon">
+                <LinkedInIcon className='linkedin-icon' alt='LinkedIn Icon'></LinkedInIcon>
+              </svg>
+            </div>
+          </a>
 
-          <div className="user-nav__icon-box">
-            <svg className="user-nav__icon">
-              <GitHub className='github-icon' alt='GitHub Icon'></GitHub>
-            </svg>
-          </div>
-
+          <a href="https://github.com/Ryano756364">
+            <div className="user-nav__icon-box">
+              <svg className="user-nav__icon">
+                <GitHub className='github-icon' alt='GitHub Icon'></GitHub>
+              </svg>
+            </div>
+          </a>
+          
           <div className="user-nav__icon-box">
             <div className="user-nav__icon">
 
@@ -36,7 +40,7 @@ function Header(){
                 <div className="navigation_background"></div>
                 <nav className="navigation_nav">
                   <ul className="navigation__list">
-                    <li className="navigation__item"><a href="https://www.google.com/" className='navigation__link'>Projects</a></li>
+                    <li className="navigation__item"><a href="https://github.com/Ryano756364/Projects" className='navigation__link'>Projects</a></li>
                     {/*Page router coming soon <li className="navigation__item"><a href="https://www.google.com/" className='navigation__link'>Who I Am</a></li> */}
                     <li className="navigation__item"><a href="https://www.linkedin.com/in/ryan-odell-java-developer/" className='navigation__link'>LinkedIn</a></li>
                     <li className="navigation__item"><a href="https://github.com/Ryano756364" className='navigation__link'>Github</a></li>

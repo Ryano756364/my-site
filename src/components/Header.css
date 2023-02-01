@@ -169,12 +169,12 @@
   background-color: transparent;
 }
 .navigation__checkbox:checked + .navigation__button .navigation_icon{
-  top: 1rem;
-  transform: rotate(45deg);
+  top: 1.2rem;
+  transform: rotate(135deg);
   width: 3.5rem;
 }
 .navigation__checkbox:checked + .navigation__button .navigation_icon::after{
   top: -1.90rem;
-  transform: rotate(-90deg);
+  transform: rotate(-270deg);
   width: 3.5rem;
 }
