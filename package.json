@@ -1,8 +1,8 @@
 {
   "name": "ryan-p-odell",
-  "homepage": "http://Ryano756354.github.io/ryan-p-odell",
+  "homepage": "https://ryano756354.github.io/ryan-p-odell",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
