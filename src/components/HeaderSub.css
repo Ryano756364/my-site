@@ -37,6 +37,18 @@
   text-align: center; */
 }
 
+@media only screen and (max-width: 600px){  
+  .text-container{
+    font-size: 2rem;
+  }
+  .text-container__text{
+    margin: 10rem;
+  }
+};
+
+
+
+
 /* ## Resources 
 
 ### Background Video

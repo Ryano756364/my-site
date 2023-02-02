@@ -1,14 +1,10 @@
 /* Section Controls */
 .main-column {
-  border: .25rem solid orangered;
-  margin: 1rem;
-  padding: 1rem;
 }
 
 /* Item Controlls */
 .main-column__item {
-  border: .25rem solid rgb(0, 106, 255);
-  margin: 1rem;
+  
   /* display: flex;
   flex-direction: column; */
 
@@ -31,16 +27,36 @@
   font-weight: 600;
   padding-bottom: 2rem;
 }
+@media only screen and (max-width: 600px){  
+  .main-column__item-header{
+    font-weight: 500;
+  }
+};
+
 .main-column__item-description{
   font-weight: 200;
   font-size: 2.5rem;
   padding-bottom: .5rem;
 }
+@media only screen and (max-width: 600px){  
+  .main-column__item-description{
+    font-weight: 100;
+    font-size: 2.25rem;
+    padding-bottom: 1rem;
+  }
+};
+
 .main-column__item-link-container{
   font-size: 2.5rem;
   font-weight: 400;
-
 }
+@media only screen and (max-width: 600px){  
+  .main-column__item-link-container{
+    font-size: 2.25rem;
+    font-weight: 200;
+  }
+};
+
 .item-link-container__link,
 .item-link-container__link:visited{
   color: black;
@@ -61,6 +77,11 @@
   justify-content: center;
   align-items: center;
 }
+@media only screen and (max-width: 600px){  
+  #university{
+    font-size: 2rem;
+  }
+};
 
 /* Home Buyer Contact Form */
 .home-text-container{
@@ -68,6 +89,11 @@
   padding-top: 10%;
   padding-right: 10%;
 }
+@media only screen and (max-width: 600px){  
+  .home-text-container{
+    padding: 5rem 7rem;
+  }
+};
 
 /* Booking Project */
 .booking-text-container{
@@ -75,6 +101,12 @@
   padding-top: 27.5%;
   color: white;
 }
+@media only screen and (max-width: 600px){  
+  .booking-text-container{
+    color: white;
+    padding: 5rem;
+  }
+};
 
 /* Agent Project */
 .agent-text-container{
@@ -82,6 +114,12 @@
   padding-top: 10%;
   color: white;
 }
+@media only screen and (max-width: 600px){  
+  .agent-text-container{
+    color: white;
+    padding: 20rem 5rem;
+  }
+};
 
 
 
