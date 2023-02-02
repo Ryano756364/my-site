@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/ryan-p-odell/static/css/main.b14a130b.css",
-    "main.js": "/ryan-p-odell/static/js/main.5e62599a.js",
-    "static/media/background-video-giant.mp4": "/ryan-p-odell/static/media/background-video-giant.a76d194a90c0ee5d90b1.mp4",
-    "static/media/home-bg-large-2.jpg": "/ryan-p-odell/static/media/home-bg-large-2.bbcd0a72e5c2b6974684.jpg",
-    "static/media/bg-travel-giant.jpg": "/ryan-p-odell/static/media/bg-travel-giant.5ec39537973270bd7418.jpg",
-    "static/media/bg-agent-giant.jpg": "/ryan-p-odell/static/media/bg-agent-giant.32a45bea3b3ecfc397d6.jpg",
-    "static/media/logo-white.png": "/ryan-p-odell/static/media/logo-white.54d54cbd1398ad77093b.png",
-    "static/media/logo-no-background.png": "/ryan-p-odell/static/media/logo-no-background.731dd6567bbfaf8ea643.png",
-    "static/media/github.svg": "/ryan-p-odell/static/media/github.d3329851ab7390db025bb039be40e21e.svg",
-    "index.html": "/ryan-p-odell/index.html",
-    "static/media/linkedin2.svg": "/ryan-p-odell/static/media/linkedin2.8d810cdc84a740ee7472fc052015454e.svg",
-    "main.b14a130b.css.map": "/ryan-p-odell/static/css/main.b14a130b.css.map",
-    "main.5e62599a.js.map": "/ryan-p-odell/static/js/main.5e62599a.js.map"
+    "main.css": "http://ryanpodell.com/static/css/main.b14a130b.css",
+    "main.js": "http://ryanpodell.com/static/js/main.5e599b99.js",
+    "static/media/background-video-giant.mp4": "http://ryanpodell.com/static/media/background-video-giant.a76d194a90c0ee5d90b1.mp4",
+    "static/media/home-bg-large-2.jpg": "http://ryanpodell.com/static/media/home-bg-large-2.bbcd0a72e5c2b6974684.jpg",
+    "static/media/bg-travel-giant.jpg": "http://ryanpodell.com/static/media/bg-travel-giant.5ec39537973270bd7418.jpg",
+    "static/media/bg-agent-giant.jpg": "http://ryanpodell.com/static/media/bg-agent-giant.32a45bea3b3ecfc397d6.jpg",
+    "static/media/logo-white.png": "http://ryanpodell.com/static/media/logo-white.54d54cbd1398ad77093b.png",
+    "static/media/logo-no-background.png": "http://ryanpodell.com/static/media/logo-no-background.731dd6567bbfaf8ea643.png",
+    "static/media/github.svg": "http://ryanpodell.com/static/media/github.d3329851ab7390db025bb039be40e21e.svg",
+    "index.html": "http://ryanpodell.com/index.html",
+    "static/media/linkedin2.svg": "http://ryanpodell.com/static/media/linkedin2.8d810cdc84a740ee7472fc052015454e.svg",
+    "main.b14a130b.css.map": "http://ryanpodell.com/static/css/main.b14a130b.css.map",
+    "main.5e599b99.js.map": "http://ryanpodell.com/static/js/main.5e599b99.js.map"
   },
   "entrypoints": [
     "static/css/main.b14a130b.css",
-    "static/js/main.5e62599a.js"
+    "static/js/main.5e599b99.js"
   ]
 }
