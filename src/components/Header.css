@@ -178,13 +178,35 @@
   background: #fff
 }
 
+@media only screen and (max-width: 900px){ 
+  .user-nav__icon-box{
+    padding: 1.5rem;
+    min-width: 7rem;
+  }
+}
 
 @media only screen and (max-width: 600px){  
   .user-nav__icon-box{
     min-width: 0;
   }
-
   .navigation__list{
     left: 47%;
   }
-};
+}
+
+@media only screen and (max-width: 400px){ 
+  .user-nav__icon-box{
+    padding: 1rem;
+  }
+}
+
+@media only screen and (max-width: 340px){ 
+  .user-nav__icon-box{
+
+    padding: .5rem;
+  }
+
+  .logo-container__logo {
+    height: 2.7rem;
+  }
+}

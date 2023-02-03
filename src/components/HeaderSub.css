@@ -22,7 +22,11 @@
 
 @media only screen and (max-width: 900px){ 
   .text-container{
-    top: -32%;
+    font-size: 2rem;
+    top: 10%;
+  }
+  .text-container__text{
+    margin: 10rem;
   }
 }
 
@@ -36,9 +40,25 @@
   }
 }
 
-@media only screen and (max-width: 300px){ 
+@media only screen and (max-width: 500px){
+  .text-container{
+    font-size: 1.75rem;
+    top: -4%;
+  }
+  .text-container__text{
+    margin: 8rem;
+  }
+}
+
+@media only screen and (max-width: 500px){
   .text-container{
     font-size: 1.5rem;
+    top: -25%;
+  }
+}
+
+@media only screen and (max-width: 300px){ 
+  .text-container{
     top: 10%;
   }
   .text-container__text{
