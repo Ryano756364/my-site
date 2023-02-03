@@ -1,13 +1,7 @@
 .header-sub-container {
-  /* border: .25rem solid rgb(210, 143, 210); */
-  /* margin: 1rem; */
-  /* padding: 1rem; */
   position: relative;
 }
 
-.video-container{
-
-}
 .video-container__video{
   width: 100%;
   height: 100%;
@@ -16,42 +10,44 @@
 }
 
 .text-container{
-  /* border: .25rem solid orangered; */
   position: absolute;
-  top: 0;
+  top: -10%;
   width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 .text-container__text{
-  /* border: .25rem solid rgb(255, 255, 0); */
   color: white;
   text-align: center;
-  margin: 30rem
-  /* position: absolute;
-  top: 20%;
-  left: 20%;
-  text-align: center; */
+  margin: 30rem;
+}
+
+@media only screen and (max-width: 900px){ 
+  .text-container{
+    top: -32%;
+  }
 }
 
 @media only screen and (max-width: 600px){  
   .text-container{
     font-size: 2rem;
+    top: 3%;
   }
   .text-container__text{
     margin: 10rem;
   }
-};
+}
 
-
-
+@media only screen and (max-width: 300px){ 
+  .text-container{
+    font-size: 1.5rem;
+    top: 10%;
+  }
+  .text-container__text{
+    margin: 2.75rem;
+  }
+}
 
 /* ## Resources 
 
 ### Background Video
 coverr.co
-
 */
