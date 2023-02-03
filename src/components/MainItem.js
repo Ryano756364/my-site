@@ -8,9 +8,9 @@ function MainItem(){
         {/* University */}
         <div className="main-column__item">
           <div className="main-column__item-header" id="university">
-              <div>Kent State University, B.S. Computer and Digital Sciences.</div>
-              <div>Tech Elevator, Full Stack Certificate.</div>
-              <div>Java Full Stack Developer.</div>
+              <div className="school">Kent State University, B.S. Computer and Digital Sciences.</div>
+              <div className="school">Tech Elevator, Full Stack Certificate.</div>
+              <div className="school">Java Full Stack Developer.</div>
           </div>
         </div>
 

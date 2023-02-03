@@ -184,7 +184,6 @@
     min-width: 7rem;
   }
 }
-
 @media only screen and (max-width: 600px){  
   .user-nav__icon-box{
     min-width: 0;
@@ -193,19 +192,16 @@
     left: 47%;
   }
 }
-
 @media only screen and (max-width: 400px){ 
   .user-nav__icon-box{
     padding: 1rem;
   }
 }
-
 @media only screen and (max-width: 340px){ 
   .user-nav__icon-box{
 
     padding: .5rem;
   }
-
   .logo-container__logo {
     height: 2.7rem;
   }

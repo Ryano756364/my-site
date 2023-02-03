@@ -1,25 +1,4 @@
-/* Section Controls */
-.main-column {
-}
-
-/* Item Controlls */
-.main-column__item {
-  
-  /* display: flex;
-  flex-direction: column; */
-
-  /* background: linear-gradient(#1095c1 0 0) no-repeat calc(200% - var(--p, 0%))
-    100% / 200% var(--p, 0.08em);
-  transition: 0.3s var(--t, 0s),
-    background-position 0.3s calc(0.3s - var(--t, 0s)); */
-}
-/* .main-column__item:hover {
-  --p: 100%;
-  --t: 0.3s;
-  color: #fff;
-  margin: 1rem -1rem;
-  scale: (1.1);
-} */
+/* Main Section Controls */
 .main-column-text-container{
   min-height: 100rem;
 }
@@ -27,48 +6,23 @@
   font-weight: 600;
   padding-bottom: 2rem;
 }
-@media only screen and (max-width: 600px){  
-  .main-column__item-header{
-    font-weight: 500;
-  }
-};
 
 .main-column__item-description{
   font-weight: 200;
   font-size: 2.5rem;
   padding-bottom: .5rem;
 }
-@media only screen and (max-width: 600px){  
-  .main-column__item-description{
-    font-weight: 100;
-    font-size: 2.25rem;
-    padding-bottom: 1rem;
-  }
-};
-
-.main-column__item-link-container{
-  font-size: 2.5rem;
-  font-weight: 400;
-}
-@media only screen and (max-width: 600px){  
-  .main-column__item-link-container{
-    font-size: 2.25rem;
-    font-weight: 200;
-  }
-};
 
 .item-link-container__link,
 .item-link-container__link:visited{
   color: black;
   text-decoration: none;
-  /* text-transform: uppercase; */
-
 }
 .item-link-container__link:hover {
   color: white;
 }
 
-/* Item-unique elements */
+/*** Unique elements ***/
 /* University */
 #university {
   padding: 50rem 0;
@@ -77,11 +31,6 @@
   justify-content: center;
   align-items: center;
 }
-@media only screen and (max-width: 600px){  
-  #university{
-    font-size: 2rem;
-  }
-};
 
 /* Home Buyer Contact Form */
 .home-text-container{
@@ -89,11 +38,7 @@
   padding-top: 10%;
   padding-right: 10%;
 }
-@media only screen and (max-width: 600px){  
-  .home-text-container{
-    padding: 5rem 7rem;
-  }
-};
+
 
 /* Booking Project */
 .booking-text-container{
@@ -101,12 +46,6 @@
   padding-top: 27.5%;
   color: white;
 }
-@media only screen and (max-width: 600px){  
-  .booking-text-container{
-    color: white;
-    padding: 5rem;
-  }
-};
 
 /* Agent Project */
 .agent-text-container{
@@ -114,14 +53,93 @@
   padding-top: 10%;
   color: white;
 }
-@media only screen and (max-width: 600px){  
+
+@media only screen and (max-width: 1200px){
+  #university {
+    padding: 30rem 0;
+  }
+  .home-text-container{
+    padding-left: 40%;
+  }
   .agent-text-container{
-    color: white;
+    padding-left: 50%;
+    padding-top: 15%;
+    padding-right: 10%;
+  }
+}
+@media only screen and (max-width: 900px){
+  .main-column__item-header{
+    font-weight: 400;
+  }
+  #university {
     padding: 20rem 5rem;
   }
-};
-
-
+  .school{
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  .home-text-container{
+    padding-left: 30%;
+    padding-top: 15%;
+  }
+  .booking-text-container{
+    padding-left: 20%;
+    padding-top: 37.5%;
+  }
+}
+@media only screen and (max-width: 600px){
+  .main-column__item-header{
+    font-size: 2.25rem;
+  }
+  .main-column__item-description,
+  .main-column__item-link-container{
+    font-size: 2rem;
+  }
+  #university {
+    padding: 15rem 2.5rem;
+  }
+  .home-text-container{
+    padding-left: 20%;
+    padding-top: 25%;
+  }
+  .booking-text-container{
+    padding-left: 5%;
+    padding-top: 67.5%;
+  }
+  .agent-text-container{
+    padding-left: 30%;
+    padding-top: 35%;
+    padding-right: 15%;
+  }
+}
+@media only screen and (max-width: 400px){
+  .main-column__item-header{
+    font-size: 1.75rem;
+  }
+  .main-column__item-description,
+  .main-column__item-link-container{
+    font-size: 1.5rem;
+  }
+  #university {
+    padding: 5rem 5rem;
+  }
+  .school{
+    margin-bottom: 1rem;
+  }
+  .home-text-container{
+    padding-left: 10%;
+    padding-top: 50%;
+  }
+  .booking-text-container{
+    padding-top: 87.5%;
+    padding-right: 10%;
+  }
+  .agent-text-container{
+    padding-left: 20%;
+    padding-top: 65%;
+    padding-right: 20%;
+  }
+}
 
 /* ## Resources 
 
