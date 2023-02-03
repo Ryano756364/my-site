@@ -15,12 +15,13 @@
 
 .item-link-container__link,
 .item-link-container__link:visited{
-  color: black;
+  color: rgb(255, 255, 255);
   text-decoration: none;
 }
 .item-link-container__link:hover {
   color: white;
 }
+
 
 /*** Unique elements ***/
 /* University */
