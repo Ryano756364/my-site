@@ -178,6 +178,8 @@
   background: #fff
 }
 
+
+
 @media only screen and (max-width: 900px){ 
   .user-nav__icon-box{
     padding: 1.5rem;
