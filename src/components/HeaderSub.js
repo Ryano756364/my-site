@@ -5,7 +5,9 @@ function HeaderSub(){
   return (
     <div className="header-sub-container">
       <div className="video-container">
-        <video src={VideoGiant} autoPlay loop muted className="video-container__video"></video>
+        <video src={VideoGiant} autoPlay loop muted className="video-container__video">
+          
+        </video>
       </div>
 
       <div className="text-container">
