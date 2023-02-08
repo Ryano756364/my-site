@@ -12,7 +12,7 @@ function Footer(){
           <div className='footer__navigation'>
             <ul className='footer__list'>
               <li className='footer__item'><a href='https://ryanpodell.com' className='footer-link'>About Me</a></li>
-              <li className='footer__item'><a href='https://github.com/Ryano756364/Projects' className='footer-link'>More Projects</a></li>
+              <li className='footer__item'><a href='https://github.com/Ryano756364?tab=repositories' className='footer-link'>More Projects</a></li>
               <li className='footer__item'><a href='https://www.linkedin.com/in/ryan-odell-java-developer/' className='footer-link'>LinkedIn</a></li>
               <li className='footer__item'><a href='https://github.com/Ryano756364' className='footer-link'>Github</a></li>
             </ul>

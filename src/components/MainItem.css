@@ -15,11 +15,11 @@
 
 .item-link-container__link,
 .item-link-container__link:visited{
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   text-decoration: none;
 }
 .item-link-container__link:hover {
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 
@@ -35,7 +35,7 @@
 
 /* Home Buyer Contact Form */
 .home-text-container{
-  padding-left: 50%;
+  padding-left: 40%;
   padding-top: 10%;
   padding-right: 10%;
 }
@@ -47,14 +47,35 @@
   padding-top: 27.5%;
   color: white;
 }
+#booking__link{
+  color: rgb(255, 255, 255);
+}
 
 /* Agent Project */
 .agent-text-container{
-  padding-left: 70%;
-  padding-top: 10%;
-  color: white;
+  padding-left: 65%;
+  padding-right: 10%;
+  padding-top: 5%;
+  color: rgb(0, 0, 0);
 }
+.shopping__header{
+  font-weight: 600;
+}
+.shopping__description{
+  font-weight: 400;
+}
+/* End Agent Project */
 
+/* Begin search project */
+.search-text-container{
+  color: white;
+  padding-left: 50%;
+  padding-top: 40%;
+  padding-right: 5%;
+}
+/* End search project */
+
+/* Start Responsive Design */
 @media only screen and (max-width: 1200px){
   #university {
     padding: 30rem 0;
@@ -63,8 +84,8 @@
     padding-left: 40%;
   }
   .agent-text-container{
-    padding-left: 50%;
-    padding-top: 15%;
+    padding-left: 65%;
+    padding-top: 5%;
     padding-right: 10%;
   }
 }
@@ -87,6 +108,14 @@
     padding-left: 20%;
     padding-top: 37.5%;
   }
+  .agent-text-container{
+    padding-left: 55%;
+    padding-top: 5%;
+    padding-right: 0%;
+  }
+  .search-text-container{
+    padding-top: 40%;
+  }
 }
 @media only screen and (max-width: 600px){
   .main-column__item-header{
@@ -108,11 +137,25 @@
     padding-top: 67.5%;
   }
   .agent-text-container{
-    padding-left: 30%;
-    padding-top: 35%;
-    padding-right: 15%;
+    padding-left: 10%;
+    padding-top: 10%;
+    padding-right: 5%;
+  }
+  .search-text-container{
+    padding-top: 50%;
   }
 }
+@media only screen and (max-width: 450px){
+  .agent-text-container{
+    padding-left: 5%;
+    padding-top: 10%;
+    padding-right: 20%;
+  }
+  .search-text-container{
+    padding-left: 30%;
+  }
+}
+
 @media only screen and (max-width: 400px){
   .main-column__item-header{
     font-size: 1.75rem;
@@ -136,11 +179,15 @@
     padding-right: 10%;
   }
   .agent-text-container{
-    padding-left: 20%;
-    padding-top: 65%;
+    padding-left: 10%;
+    padding-top: 10%;
     padding-right: 20%;
   }
+  .search-text-container{
+    padding-top: 60%;
+  }
 }
+/* End Responsive Design */
 
 /* ## Resources 
 

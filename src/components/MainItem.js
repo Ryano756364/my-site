@@ -33,6 +33,25 @@ function MainItem(){
 
         {/* Project Two */}
         <div className="main-column__item">
+          <Parallax bgImage={require('../img/shopping-original.jpg')} bgImageAlt="Shopping cart project image" strength={-200} className='shopping-cart-image'>
+          <div className="main-column-text-container agent-text-container">
+            <div className="main-column__item-header shopping__header">
+              Shopping List App
+            </div>
+
+            <div className="main-column__item-description shopping__description">
+              React library used in the design with project showcasing a high affinity for parent child communication of props and data. (Bonus build using a local server on GitHub as well!)
+            </div>
+
+            <div className="main-column__item-link-container shopping__link__container">
+              <a href="https://shopping-list-app-distribute.web.app/" className='item-link-container__link shopping__link'>Project Link</a>
+            </div>
+          </div>
+          </Parallax>
+        </div>
+
+        {/* Project Three */}
+        <div className="main-column__item">
           <Parallax bgImage={require('../img/bg-travel-giant.jpg')} bgImageAlt="City view" strength={-200}>
           <div className="main-column-text-container booking-text-container">
             <div className="main-column__item-header">
@@ -44,27 +63,26 @@ function MainItem(){
             </div>
 
             <div className="main-column__item-link-container">
-              <a href="https://ryano756364.github.io/rpod-booking-site/" className='item-link-container__link'>Project Link</a>
+              <a href="https://ryano756364.github.io/rpod-booking-site/" className='item-link-container__link' id='booking__link'>Project Link</a>
             </div>
           </div>
           </Parallax>
         </div>
 
-        {/* Project Three */}
+        {/* Project Four */}
         <div className="main-column__item">
-          <Parallax bgImage={require('../img/bg-agent-giant.jpg')} bgImageAlt="Concrete home" strength={-200}>
-          <div className="main-column-text-container agent-text-container">
-            <div className="main-column__item-header ">
-              Real Estate Agent Profile Project
+          <Parallax bgImage={require('../img/search-original.jpg')} bgImageAlt="Google on a mobile phone" strength={-200}>
+          <div className="main-column-text-container search-text-container">
+            <div className="main-column__item-header">
+            Image Search API App
             </div>
 
             <div className="main-column__item-description">
-              This project displays a high affinity to utilizing the two-dimensional grid system to display great control over the site layout.
+              This project displays an abilty to use Axios with React on calling an API to pull photos from a third party site. Showcases understanding of promises, await, async, and pulling certain objects from API.
             </div>
 
             <div className="main-column__item-link-container">
-              {/* <a href="https:www.google.com" className='item-link-container__link'>Link</a> */}
-              Project Link Coming Soon
+              <a href="https://api-call-search-app.web.app/" className='item-link-container__link' id='booking__link'>Project Link</a>
             </div>
           </div>
           </Parallax>

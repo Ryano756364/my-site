@@ -40,7 +40,7 @@ function Header(){
                 <div className="navigation_background"></div>
                 <nav className="navigation_nav">
                   <ul className="navigation__list">
-                    <li className="navigation__item"><a href="https://github.com/Ryano756364/Projects" className='navigation__link'>Projects</a></li>
+                    <li className="navigation__item"><a href="https://github.com/Ryano756364?tab=repositories" className='navigation__link'>Projects</a></li>
                     {/*Page router coming soon <li className="navigation__item"><a href="https://www.google.com/" className='navigation__link'>Who I Am</a></li> */}
                     <li className="navigation__item"><a href="https://www.linkedin.com/in/ryan-odell-java-developer/" className='navigation__link'>LinkedIn</a></li>
                     <li className="navigation__item"><a href="https://github.com/Ryano756364" className='navigation__link'>Github</a></li>
