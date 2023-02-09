@@ -44,7 +44,7 @@ function MainItem(){
             </div>
 
             <div className="main-column__item-link-container shopping__link__container">
-              <a href="https://shopping-list-app-distribute.web.app/" className='item-link-container__link shopping__link'>Project Link</a>
+              <a href="https://shopping-list-app-distribute.web.app/" className='item-link-container__link shopping__link' id="shopping-link-id">Project Link</a>
             </div>
           </div>
           </Parallax>

@@ -55,14 +55,17 @@
 .agent-text-container{
   padding-left: 65%;
   padding-right: 10%;
-  padding-top: 5%;
-  color: rgb(0, 0, 0);
+  padding-top: 10%;
+  color: rgb(255, 255, 255);
 }
 .shopping__header{
   font-weight: 600;
 }
 .shopping__description{
-  font-weight: 400;
+  font-weight: 200;
+}
+#shopping-link-id{
+  color: white;
 }
 /* End Agent Project */
 
@@ -70,9 +73,10 @@
 .search-text-container{
   color: white;
   padding-left: 50%;
-  padding-top: 40%;
+  padding-top: 20%;
   padding-right: 5%;
 }
+
 /* End search project */
 
 /* Start Responsive Design */
@@ -85,7 +89,7 @@
   }
   .agent-text-container{
     padding-left: 65%;
-    padding-top: 5%;
+    padding-top: 15%;
     padding-right: 10%;
   }
 }
@@ -110,8 +114,8 @@
   }
   .agent-text-container{
     padding-left: 55%;
-    padding-top: 5%;
-    padding-right: 0%;
+    padding-top: 15%;
+    padding-right: 5%;
   }
   .search-text-container{
     padding-top: 40%;
@@ -138,7 +142,7 @@
   }
   .agent-text-container{
     padding-left: 10%;
-    padding-top: 10%;
+    padding-top: 30%;
     padding-right: 5%;
   }
   .search-text-container{
@@ -148,7 +152,7 @@
 @media only screen and (max-width: 450px){
   .agent-text-container{
     padding-left: 5%;
-    padding-top: 10%;
+    padding-top: 40%;
     padding-right: 20%;
   }
   .search-text-container{
@@ -180,11 +184,11 @@
   }
   .agent-text-container{
     padding-left: 10%;
-    padding-top: 10%;
+    padding-top: 50%;
     padding-right: 20%;
   }
   .search-text-container{
-    padding-top: 60%;
+    padding-top: 70%;
   }
 }
 /* End Responsive Design */
