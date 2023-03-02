@@ -15,6 +15,23 @@ function MainItem(){
         </div>
 
         {/* Project One */}
+        <div className="main-column__item" id="recipe-book-container">
+          <Parallax bgImage={require('../img/recipe-original.jpg')} bgImageAlt="Cooking set with food and cutlery" strength={-200}>
+            <div className="main-column-text-container recipe-book-text-container">
+              <div className="main-column__item-header">
+                No BS Cookbood Website
+              </div>
+              <div className="main-column__item-description">
+                This project displays very strong implementation of the React framework with a focus on reducers and context to divide up duties of the program to allow for scalable production. Generous examples of API calls and filtering added as well. User authentication that turns on and off the abilty to add a favorite recipe as well!
+              </div>
+              <div className="main-column__item-link-container">
+                <a href="http://nobscookbook.com" className='item-link-container__link' id="no-bs-cookbook-link">Project Link</a>
+              </div>
+            </div>
+          </Parallax>
+        </div>
+
+        {/* Project Two */}
         <div className="main-column__item" id="home-buyer-container">
           <Parallax bgImage={require('../img/home-bg-large-2.jpg')} bgImageAlt="Three homes with blue sky background" strength={-200}>
             <div className="main-column-text-container home-text-container">
@@ -31,7 +48,7 @@ function MainItem(){
           </Parallax>
         </div>
 
-        {/* Project Two */}
+        {/* Project Three */}
         <div className="main-column__item">
           <Parallax bgImage={require('../img/shopping-original.jpg')} bgImageAlt="Shopping cart project image" strength={-200} className='shopping-cart-image'>
           <div className="main-column-text-container agent-text-container">
@@ -50,7 +67,7 @@ function MainItem(){
           </Parallax>
         </div>
 
-        {/* Project Three */}
+        {/* Project Four */}
         <div className="main-column__item">
           <Parallax bgImage={require('../img/bg-travel-giant.jpg')} bgImageAlt="City view" strength={-200}>
           <div className="main-column-text-container booking-text-container">
@@ -69,7 +86,7 @@ function MainItem(){
           </Parallax>
         </div>
 
-        {/* Project Four */}
+        {/* Project Five */}
         <div className="main-column__item">
           <Parallax bgImage={require('../img/search-original.jpg')} bgImageAlt="Google on a mobile phone" strength={-200}>
           <div className="main-column-text-container search-text-container">
