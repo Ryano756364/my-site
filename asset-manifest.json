@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.927259c8.css",
-    "main.js": "/static/js/main.4a6424d6.js",
+    "main.css": "/static/css/main.334d6b91.css",
+    "main.js": "/static/js/main.40194d06.js",
     "static/media/bg-vd-giant.mp4": "/static/media/bg-vd-giant.eb51fbc928f7a0fe3cfc.mp4",
     "static/media/home-bg-large-2.jpg": "/static/media/home-bg-large-2.bbcd0a72e5c2b6974684.jpg",
     "static/media/bg-travel-giant.jpg": "/static/media/bg-travel-giant.5ec39537973270bd7418.jpg",
     "static/media/search-original.jpg": "/static/media/search-original.0f989d6878a05faea521.jpg",
     "static/media/shopping-original.jpg": "/static/media/shopping-original.14288c32543c673c7c19.jpg",
+    "static/media/recipe-original.jpg": "/static/media/recipe-original.d4b844041161e72213ef.jpg",
     "static/media/logo-white.png": "/static/media/logo-white.54d54cbd1398ad77093b.png",
     "static/media/logo-no-background.png": "/static/media/logo-no-background.731dd6567bbfaf8ea643.png",
     "static/media/github.svg": "/static/media/github.de0523924cec8524e47759c347a1e330.svg",
     "index.html": "/index.html",
     "static/media/linkedin2.svg": "/static/media/linkedin2.ea27127c8ae1a8dd5932f28cf1d5ed24.svg",
-    "main.927259c8.css.map": "/static/css/main.927259c8.css.map",
-    "main.4a6424d6.js.map": "/static/js/main.4a6424d6.js.map"
+    "main.334d6b91.css.map": "/static/css/main.334d6b91.css.map",
+    "main.40194d06.js.map": "/static/js/main.40194d06.js.map"
   },
   "entrypoints": [
-    "static/css/main.927259c8.css",
-    "static/js/main.4a6424d6.js"
+    "static/css/main.334d6b91.css",
+    "static/js/main.40194d06.js"
   ]
 }
