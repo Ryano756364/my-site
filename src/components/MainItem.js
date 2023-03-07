@@ -50,6 +50,44 @@ function MainItem(){
 
         {/* Project Three */}
         <div className="main-column__item">
+          <Parallax bgImage={require('../img/bg-travel-giant.jpg')} bgImageAlt="City view" strength={-200}>
+            <div className="main-column-text-container booking-text-container">
+              <div className="main-column__item-header">
+                R-Pod Booking Site Project
+              </div>
+
+              <div className="main-column__item-description">
+                This project displays a knowledge of the flex design system along with creative elements to a nav bar and notifications attached to icons.
+              </div>
+
+              <div className="main-column__item-link-container">
+                <a href="https://ryano756364.github.io/rpod-booking-site/" className='item-link-container__link' id='booking__link'>Project Link</a>
+              </div>
+            </div>
+          </Parallax>
+        </div>
+
+        {/* Project Four */}
+        <div className="main-column__item">
+          <Parallax bgImage={require('../img/search-original.jpg')} bgImageAlt="Google on a mobile phone" strength={-200}>
+            <div className="main-column-text-container search-text-container">
+              <div className="main-column__item-header">
+                Image Search API App
+              </div>
+
+              <div className="main-column__item-description">
+                This project displays an abilty to use Axios with React on calling an API to pull photos from a third party site. Showcases understanding of promises, await, async, and pulling certain objects from API.
+              </div>
+
+              <div className="main-column__item-link-container">
+                <a href="https://api-call-search-app.web.app/" className='item-link-container__link' id='booking__link'>Project Link</a>
+              </div>
+            </div>
+          </Parallax>
+        </div>
+
+        {/* Project Five */}
+        <div className="main-column__item">
           <Parallax bgImage={require('../img/shopping-original.jpg')} bgImageAlt="Shopping cart project image" strength={-200} className='shopping-cart-image'>
           <div className="main-column-text-container agent-text-container">
             <div className="main-column__item-header shopping__header">
@@ -67,43 +105,9 @@ function MainItem(){
           </Parallax>
         </div>
 
-        {/* Project Four */}
-        <div className="main-column__item">
-          <Parallax bgImage={require('../img/bg-travel-giant.jpg')} bgImageAlt="City view" strength={-200}>
-          <div className="main-column-text-container booking-text-container">
-            <div className="main-column__item-header">
-            R-Pod Booking Site Project
-            </div>
 
-            <div className="main-column__item-description">
-              This project displays a knowledge of the flex design system along with creative elements to a nav bar and notifications attached to icons.
-            </div>
 
-            <div className="main-column__item-link-container">
-              <a href="https://ryano756364.github.io/rpod-booking-site/" className='item-link-container__link' id='booking__link'>Project Link</a>
-            </div>
-          </div>
-          </Parallax>
-        </div>
 
-        {/* Project Five */}
-        <div className="main-column__item">
-          <Parallax bgImage={require('../img/search-original.jpg')} bgImageAlt="Google on a mobile phone" strength={-200}>
-          <div className="main-column-text-container search-text-container">
-            <div className="main-column__item-header">
-            Image Search API App
-            </div>
-
-            <div className="main-column__item-description">
-              This project displays an abilty to use Axios with React on calling an API to pull photos from a third party site. Showcases understanding of promises, await, async, and pulling certain objects from API.
-            </div>
-
-            <div className="main-column__item-link-container">
-              <a href="https://api-call-search-app.web.app/" className='item-link-container__link' id='booking__link'>Project Link</a>
-            </div>
-          </div>
-          </Parallax>
-        </div>
 
       </div>
   )
